@@ -27,6 +27,12 @@ terraform plan -var-file terraform.tfvars
 terraform apply -var-file terraform.tfvars
 ```
 
+to stop the resources after the completion
+
+```sh
+terraform destroy
+```
+
 References:
 
 [1] https://cloud.google.com/blog/products/data-analytics/introducing-the-bigquery-terraform-module
