@@ -2,7 +2,7 @@ provider "google" {
     version = "~> 2.5.0"
 
     # Update credentials to the correct location
-    credentials = file(".ssh/bq-key.json")
+    credentials = file("../credentials.json")
 }
 
 module "bigquery" {
