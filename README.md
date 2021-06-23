@@ -1,4 +1,14 @@
-# tf-gcp
+## tf-gcp
+
+
+### Usage
+
+```sh
+terraform init
+
+terraform plan -var-file terraform.tfvars
+terraform apply -var-file terraform.tfvars
+```
 
 References:
 
